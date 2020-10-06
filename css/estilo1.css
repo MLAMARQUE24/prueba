@@ -1,0 +1,267 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,500,600,900i&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body{
+	
+	background-image: url(../img/pattern1.png);
+}
+
+main{ width: 90%;
+	max-width: 1180px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #d1ccc0;
+}
+
+header{
+ width: 40%;
+ height: 150px; 
+ background-color: #b3cde0;
+ float: left;
+}
+
+.logo{
+padding-top: 20px;
+padding-left: 10%;	
+max-width: 300px;
+}
+
+nav{
+ width: 60%;
+ height: 150px; 
+ background-color: #b3cde0;
+ float: right;
+ padding-top: 50px;
+
+}
+
+.boton {font-family: 'Montserrat';
+font-weight: 700;
+font-size: 11pt;
+color:  #ffffff;
+padding-left: 13%;
+}
+
+
+section{
+width: 100%;
+height: 700px;
+background-color: black;
+ }
+
+h1{ font-family: 'Dancing Script';
+font-weight: 900;
+color: #949494;
+font-size: 38px;
+padding-top: 33px;
+padding-left: 7%;
+}
+
+
+.subtitulo{font-family: 'Playfair Display', serif;
+font-weight: 700;
+color: #90B286;
+font-style: italic;
+font-size: 23px;
+padding-top: 32px;
+padding-left: 7%;
+}
+
+.textoindex{font-family: 'Montserrat', sans-serif;
+font-weight: 500;
+color: #4D85A9;
+padding-left: 7%;
+padding-right: 5%;
+font-size: 16px;
+padding-top: 55px;
+line-height: 1.6;
+}
+
+
+
+
+
+footer{ 
+width: 100%;
+height: 50px;
+clear: both;
+background-color: #b3cde0;
+ }
+
+ .footer{padding-left: 40%;
+ 	padding-top: 20px;
+ font-family: 'Montserrat', sans-serif;
+font-weight: 500;
+color: #F1F9FE;
+float: left;}
+
+
+
+ #articuloA{width: 45%;
+ 	height: 550px;
+ 	background-color: white;
+
+ 	float: left;
+ }
+
+  #articuloB {width: 100%;
+  	height: 275px;
+ 	background-image: url(../img/interior.jpg);
+ 	float: none;
+}
+
+
+   #articuloC {width: 100%;
+  	height: 275px;
+  	background-image: url(../img/avion2.png);
+  	float: none;
+  	}
+
+  	#articuloD {width: 55%;
+  	height: 550px;
+  	background-color: #d1ccc0;
+  	float: right;
+  	}
+
+
+a{ text-decoration: none;
+}
+
+
+
+#articulo1{width: 60%;
+ 	height: 550px;
+ 	background-color: white;
+ 	float: left;
+ }
+
+  #articulo3 {width: 100%;
+  	height: 275px;
+ 	background-image: url(../img/int2.jpg);
+ 	float: none;
+}
+
+
+   #articulo4 {width: 100%;
+  	height: 275px;
+  	background-image: url(../img/peg.png);
+  	float: none;
+  	}
+
+  	#articulo2 {width: 40%;
+  	height: 550px;
+  	background-color: #d1ccc0;
+  	float: right;
+  	}
+
+
+
+
+
+  	#articulo5{width: 45%;
+ 	height: 550px;
+ 	background-color: white;
+ 	float: left;
+ }
+
+
+  	#articulo6 {width: 55%;
+  	height: 550px;
+    background-image: url(../img/peg.png);
+  	float: right;
+  	}
+
+ #articulo7 {width: 100%;
+  	height: 275px;
+ 	background-color: white;
+ 	float: none;
+}
+
+
+.formulariotext{
+	font-size: 31px;
+	padding-bottom: 15px;
+	padding-left: 8%;
+}
+
+.galeriatext{
+	font-size: 31px;
+	padding-bottom: 15px;
+	padding-right: 5%;
+}
+
+.rslides{padding-left: 15%;}
+
+
+form{
+	padding-top: 10px;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 10pt;
+	padding-left: 22%
+	}
+
+label{font-weight: 600;
+	padding-bottom: 20px;
+	padding-left: 2%;
+	color: #4D85A9;}
+
+input{font-family: 'Montserrat', sans-serif;
+font-size: 9pt;
+padding-bottom: 7px;
+padding-top: 7px;
+padding-left: 5%;
+padding-right: 5%;
+width: 60%;
+background-color: #F8EFBA;
+border: 2px solid #F8EFBA;
+  border-radius: 7px;
+}
+
+textarea{width: 60%;
+height: 120px;
+background-color: #F8EFBA;
+border: 2px solid #F8EFBA;
+  border-radius: 7px;
+font-family: 'Montserrat', sans-serif;
+padding-bottom: 6px;
+padding-top: 8px;
+padding-left: 3%;
+padding-right: 5%;}
+
+.botonenviar{ background-color: #4D85A9;
+border-style: none; 
+width: 60%;
+color: white;
+font-weight: 600;
+font-size: 10pt;}
+
+
+
+ul.redes{
+	margin: 0;
+	padding: 0;
+	list-style-type: none;}
+ul.redes li{
+	display: inline;}
+ ul.redes li a{
+	width: 4%;
+	height: 30px;
+	float: right;
+	margin-right: 1%;
+	margin-top: 5px}
+img.red {max-width: 40px;}
+
+
+ul{list-style-type: none;
+}
+
+li{display: inline;}
+
+
+
+

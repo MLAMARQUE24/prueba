@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet" type="text/css" href="css/estilo1.css">
+<link rel="stylesheet" type="text/css" href="css/responsiveslides.css">
+
+
+	<title>Aerolíneas Pegaso</title>
+</head>
+
+<body>
+
+<main>
+
+<header>
+	 <a href="index.html">
+	 <img src="img/logo.png" class="logo"> </a>
+</header>
+
+<nav>    
+	<ul>
+	<li><a href="pegaso.html" class="boton">SOBRE PEGASO</a></li><li><a href="flota.html" class="boton">NUESTRA FLOTA</a> </li>
+	<li><a href="contactoformu.html" class="boton">CONTACTO</a></li>
+	</ul>
+
+        
+	
+</nav>
+
+
+<section>
+	<article id="articulo1">
+		
+	<h1 class="galeriatext">¡Conocé nuestros Aviones!</h1> <br>
+
+<ul class="rslides">
+	<li><img src="img/avion1.jpg" alt=""></li>
+ <li><img src="img/avion4.jpg" alt=""></li>
+  <li><img src="img/avion3.jpg" alt=""></li>
+	<li><img src="img/avion5.jpg" alt=""></li>
+     
+</ul>
+
+
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+<script  src="js/responsiveslides.js"></script>
+<script>
+  $(function() {
+    $(".rslides").responsiveSlides({
+    	auto: true,
+        pagination: false,
+        nav: false,
+        fade: 500,
+        maxwidth: 630
+});
+    });
+
+</script>
+
+
+	</article>
+
+	<article id="articulo2">
+
+	<div id="articulo7"></div>
+
+
+	<div id="articulo4"></div>
+
+	</article>
+
+</section>
+
+
+<aside></aside>
+
+<footer>
+	<a href="../micrositiohadas/micro1.html"><p class="footer">Milagros María Lamarque</p></a>
+
+<ul class="redes">
+			
+			<li> <a href="https://www.facebook.com/Disney/" target="blank"><img src="img/face.png" class="red"></a></li>
+			<li> <a href="https://www.instagram.com/disney/" target="blank"><img src="img/insta.png" class="red"></a></li>
+			<li> <a href="https://www.whatsapp.com" target="blank"><img src="img/wapp.png" class="red"></a></li>
+		</ul>
+
+
+</footer>
+
+</main>
+
+</body>
+</html>
