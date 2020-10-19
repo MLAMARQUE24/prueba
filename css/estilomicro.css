@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,500|Playfair+Display:700,700i,900i&display=swap');
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body{
+	
+	background-color: #ffbe76;
+}
+
+a{text-decoration: none;
+}
+
+main{ width: 90%;
+	max-width: 1180px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: white;
+}
+
+header{
+ width: 30%;
+ height: 150px; 
+ background-color: #ffbe76;
+ float: left;
+}
+
+
+nav{
+ width: 70%;
+ height: 150px; 
+ background-color: #ffbe76;
+ float: right;
+ padding-top: 50px;
+
+}
+
+.boton {font-family: 'Playfair Display', serif;
+font-weight: 700;
+font-size: 16pt;
+color: white;
+padding-left: 7%;
+
+}
+
+
+
+section{
+width: 80%;
+height: 550px;
+background-color: #8c7ae6;
+float: left; }
+
+h1{ font-family: 'Playfair Display', serif;
+font-weight: 900;
+color: #706F6F;
+font-style: italic;
+font-size: 30px;
+padding-top: 20px;
+padding-left: 1%;
+}
+
+
+.titulos{ font-family: 'Playfair Display', serif;
+font-weight: 900;
+color: white;
+font-size: 25pt;
+padding-left: 8%;
+padding-top: 36px;
+}
+
+
+
+
+aside.asideindex{
+width: 20%;
+height: 550px;
+background-image: url(../img/spring.jpg);
+float: left; 
+}
+
+
+footer{ 
+width: 100%;
+height: 50px;
+clear: both;
+background-color: #f5cd79;
+ }
+
+.footer{padding-left: 40%;
+padding-top: 20px;
+font-family: 'Montserrat', sans-serif;
+font-weight: 500;
+float: left;
+color: white;}
+
+
+ }
+
+a{text-decoration: none;
+}
+
+#articulo1{width: 100%;
+ 	height: 550px;
+ 	float: left;
+ 	background-color: white;
+ 	padding-left: 6%;
+ }
+
+
+.titulotext{
+	font-size: 22px;
+	padding-bottom: 5px;
+	padding-right: 5%;
+	padding-top: 20px;
+	font-family: 'Montserrat', sans-serif;
+font-weight: 500;
+}
+
+
+.galeriarele{padding-top: 30px;
+display: inline-block;
+padding-right: 10%;}
+
+.galeriawire{
+	padding-top: 50px;
+	padding-right:20%;
+	padding-left: 35%;
+}
+
+.paleta{
+	max-width: 800px;
+	padding-top: 14px;
+}
+
+.marca{
+
+		max-width: 700px;
+		padding-top: 20px;
+		padding-left: 12%;
+}
+.marca2{
+
+		max-width: 800px;
+		padding-top: 20px;
+		padding-left: 30%;
+}
+ul{list-style-type: none;
+}
+
+li{display: inline;}
+
+
+
+
+
+
+
