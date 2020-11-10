@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css?family=Asap&display=swap');
+
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+
+body{
+    background:url(../img/fondo.jpg);
+}
+
+#main{
+	width: 100%;
+	max-width: 1180px;
+	height: 550px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+header{
+	width: 100%;
+	height: 80px;
+	background-color: #4AB3CF;
+}
+
+.logo{
+	margin-left: 500px;
+	margin-top: 15px;
+	margin-bottom: 10px;	
+}
+
+nav{
+
+	width: 100%;
+	height: 50px;
+	background-color: #4AB3CF;
+}
+
+/*BOTONERA*/
+
+ul.menu{
+	margin-right:0;
+	padding: 0;
+	list-style-type: none;
+	padding-right: 2%;
+}
+
+ul.menu li{
+	display: inline;  
+}
+
+ul.menu li a{
+	font-family: 'Asap';
+	font-weight: bold;
+	font-size: 16px;
+	color: #ffffff;
+	width: 20%;
+	height: 30px;
+	line-height: 30px;
+	border-radius: 5px;
+	display: inline-block;
+	text-align: center;
+	text-decoration: none;
+	margin-top: 25px;
+	margin-left: 50px;
+	margin-right: 1px;
+}
+ul.menu li a:hover {
+	background-color: #B1D4E0;
+}
+
+section{
+	width: 100%;
+	height: 630px;
+	clear: both;
+	}
+
+footer{
+	width: 100%;
+	height: 80px;
+	background-color: #4AB3CF;
+}
+
+#section1{
+	background-image: url(../img/relevamiento.jpg);
+}
+
+#section2{
+	background-image: url(../img/screenshot.jpg);
+}
+
+#section3{
+	background-image: url(../img/elecciones.jpg);
+}
+
+#section4{
+	background-image: url(../img/wireframe.jpg);
+}
